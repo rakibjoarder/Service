@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aust.rakib.boundservice">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity android:name=".BoundServiceActivity" />
+
+        <service
+            android:name=".MyBoundService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>
